@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Inicio {
 	 static Scanner sc = new Scanner (System.in);
-	static String rutaArchivo = "C:\\Users\\Usuario\\eclipse-workspace\\ejercicio4FicherosJava\\" + "ficheros5.txt";
+	static String rutaArchivo = "C:\\Users\\Profesor\\eclipse-workspace\\ejercicio5FicherosJava\\" + "ficheros5.txt";
 	public static void main(String[] args) {
 		
 		contenidoInicial();
@@ -49,7 +49,8 @@ public class Inicio {
              System.out.println("Introduce el numero de la linea en la que deseas añadir el texto");
              int numeroLinea = sc.nextInt();
              System.out.println("Introduce el texto que deseas añadir");
-             String textoNuevo =sc.next();
+             String textoNuevo =sc.nextLine();
+             sc.nextLine();
 
              try
              {
@@ -85,7 +86,8 @@ public class Inicio {
         	 System.out.println("Introduce la posicion en la que deseas añadir el texto");
              int posicionDeInicio =sc.nextInt();
              System.out.println("Introduce el texto que deseas añadir");
-             String textoAInsertar = sc.next();
+             String textoAInsertar = sc.nextLine();
+             sc.nextLine();
 
              try {
                  // Leer el archivo línea por línea y guardar cada línea en un StringBuilder

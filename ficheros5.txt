@@ -1,0 +1,3 @@
+jaqueline romero
+Este es un ejemplo de escritura en un archivo utilizando Java.
+hola como estas
